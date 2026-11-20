@@ -1,0 +1,26 @@
+h2,
+h3 {
+    /* h2와 h3 전체 */
+    color: saddlebrown;
+}
+
+.menu li {
+    /* 밑의 모든 자식 */
+    color: gray;
+}
+
+.menu>li {
+    /* 바로 밑 자식 */
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    /* input 상자 중 타입이 text인 것만 가리킴 */
+    border: 2px solid tomato;
+    border-radius: 20px;
+}
