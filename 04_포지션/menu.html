@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {margin: 0;}
+        .banner {
+            height: 200px;
+            background-color: tomato;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            line-height: 200px;
+            font-weight: 900;
+        }
+        .menu {
+            position: sticky;
+            /* 어느 상황에서 고정 */
+            top: 0px;
+            background-color: black;
+            text-align: center;
+            padding: 15%;
+        }
+        .menu a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .contetn {
+            height: 3000px;
+            background-color: whitesmoke;
+            padding: 20px;
+        }
+        .top-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: royalblue;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">SHOES MALL</div>
+    <nav class="menu">
+        <a href="#">신상품</a>
+        <a href="#">운동화</a>
+        <a href="#">구두</a>
+        <a href="#">세일</a>
+    </nav>
+    <div class="content">상품 영역 (스크롤 해주세요)</div>
+    <a href="#" class="top-button"></a>
+</body>
+</html>
