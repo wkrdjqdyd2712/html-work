@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            /* 화면의 전체 높이 */
+            height: 100vh;
+        }
+        .header {
+            height: 80px;
+            background-color: steelblue;
+        }
+        .display {
+            display: flex;
+            /* 위/아래 제외하고 나머지 다 갖음. */
+            flex: 1;
+        } /**/
+        .nav {
+            /*grow, shrimt, base-with*/
+            /* 늘지말고, 줄지도 말고, 항상 150*/
+            flex: 0 0 150px;
+            background-color: lightskyblue;
+        }
+        .main {
+            background-color: whitesmoke;
+        }
+        .ad {
+
+            background-color: lightskyblue;
+        }
+        .footer {
+            height: 60px;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="display">
+            <div class="nav"></div>
+            <div class="main"
+                style="columns=
+                ;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, omnis. Corporis vel, minima eveniet deleniti quod mollitia voluptatum explicabo officiis placeat earum ipsa iste, dicta provident eius. Eligendi, facilis veniam?
+                Tempora, cupiditate! Corporis voluptas est culpa eligendi accusamus qui inventore quis commodi molestiae omnis. Dignissimos officia neque numquam eligendi nulla quidem nihil facilis debitis vero, doloribus ipsum nam blanditiis officiis.
+                Cum iure tempora culpa facilis laudantium fuga velit possimus. Ut corrupti neque, maxime expedita esse excepturi veniam aliquam. Dolorum temporibus autem repellendus ratione, dicta aperiam laborum quisquam illum explicabo quibusdam?
+                Atque beatae labore vitae deserunt quidem voluptate culpa ex dolorum ipsa a nihil voluptas facilis, eius odit, aperiam at ipsam rem cum aspernatur quae repellat. Suscipit consectetur tenetur autem ipsam.
+                Aspernatur iste, dolore suscipit sapiente voluptatum impedit eos quos aperiam aliquid. Beatae tempora commodi ipsa exercitationem mollitia nostrum pariatur porro ipsam dignissimos dolorem placeat, doloremque, ex dolorum quas, suscipit perspiciatis?
+                Animi aliquam vitae obcaecati aliquid sequi doloribus fugit cumque voluptatibus accusantium alias perspiciatis voluptates esse dolore totam, tempore laudantium delectus ea amet cupiditate itaque labore blanditiis, necessitatibus quia voluptatum? Iusto.
+                Corrupti aperiam doloremque excepturi neque? Dicta perferendis, suscipit reprehenderit eos numquam doloribus autem aliquid quos consectetur, id sint ullam quasi at facilis enim, voluptates asperiores illo quas soluta quis sunt.
+                Quam magni nemo non id suscipit libero vitae incidunt quidem placeat pariatur exercitationem dolore quos minima omnis, perferendis amet consectetur cum est aut sit facere molestiae eos! Illum, non itaque.
+                Aliquid ea minus aliquam iusto cumque natus nobis repellendus, ex deleniti deserunt incidunt sit, facilis aut voluptatem, architecto ad dolor fugit dolores laborum fuga neque illum ipsum impedit repudiandae? Nobis?
+                Tempora, delectus quia! Quia dolores nostrum, voluptas temporibus sed beatae ab animi id sit laudantium ut est similique quam hic dolorem a molestias minima. Voluptates nobis veniam voluptatum ipsam magnam?
+            </div>
+            <div class="ad"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
